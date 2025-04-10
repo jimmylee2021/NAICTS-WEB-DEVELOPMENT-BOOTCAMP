@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: blue;
+    font-style: italic;
+}
+.test {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+}
+#test {
+    border: 1px solid  green;
+    padding: 20px;
+    margin: 20px; 
+    width: 300px;
+}
+#test p {
+    text-align: right;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
